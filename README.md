@@ -65,8 +65,10 @@ All suggestions are welcome.
 ![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)
 
 ## Videos - Articles About DaProfiler
-<br>hXXps://cnil[.]me/tools/osint/tools/daprofiler.html [Here](https://cnil.me/tools/osint/tools/daprofiler.html)
-<br>DaProfiler: Crear Perfil sobre tu Objetivo basado en Francia [Here](https://esgeeks.com/daprofiler-crear-perfil-objetivo-francia/)
-<br>hXXps://www[.]youtube[.]com/watch?v=7XI1mFHcVqg [Here](https://www.youtube.com/watch?v=7XI1mFHcVqg)
-<br>TROUVER DES INFOS SUR QUELQU'UN #2 DaProfiler | Tuto Hacking [Here](https://www.youtube.com/watch?v=8Ymvvh31ONs)
-<br>hXXps://geekscripts[.]guru/daprofiler-create-profile-target-france/ [Here](https://geekscripts.guru/daprofiler-create-profile-target-france/)
+| Title | Link |
+| :---: | :---: |
+| hXXps://cnil[.]me/tools/osint/tools/daprofiler.html [Here](https://cnil.me/tools/osint/tools/daprofiler.html) | 
+| DaProfiler: Crear Perfil sobre tu Objetivo basado en Francia [Here](https://esgeeks.com/daprofiler-crear-perfil-objetivo-francia/) |
+| hXXps://www[.]youtube[.]com/watch?v=7XI1mFHcVqg [Here](https://www.youtube.com/watch?v=7XI1mFHcVqg) |
+| TROUVER DES INFOS SUR QUELQU'UN #2 DaProfiler | Tuto Hacking [Here](https://www.youtube.com/watch?v=8Ymvvh31ONs) |
+| hXXps://geekscripts[.]guru/daprofiler-create-profile-target-france/ [Here](https://geekscripts.guru/daprofiler-create-profile-target-france/) |
