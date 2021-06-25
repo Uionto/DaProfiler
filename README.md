@@ -67,8 +67,8 @@ All suggestions are welcome.
 ## Videos - Articles About DaProfiler
 | Title | Link |
 | :---: | :---: |
-| hXXps://cnil[.]me/tools/osint/tools/daprofiler.html [Here](https://cnil.me/tools/osint/tools/daprofiler.html) | 
-| DaProfiler: Crear Perfil sobre tu Objetivo basado en Francia [Here](https://esgeeks.com/daprofiler-crear-perfil-objetivo-francia/) |
-| hXXps://www[.]youtube[.]com/watch?v=7XI1mFHcVqg [Here](https://www.youtube.com/watch?v=7XI1mFHcVqg) |
+| hXXps://cnil[.]me/tools/osint/tools/daprofiler.html | [Here](https://cnil.me/tools/osint/tools/daprofiler.html) | 
+| DaProfiler: Crear Perfil sobre tu Objetivo basado en Francia | [Here](https://esgeeks.com/daprofiler-crear-perfil-objetivo-francia/) |
+| hXXps://www[.]youtube[.]com/watch?v=7XI1mFHcVqg | [Here](https://www.youtube.com/watch?v=7XI1mFHcVqg) |
 | TROUVER DES INFOS SUR QUELQU'UN #2 DaProfiler | Tuto Hacking [Here](https://www.youtube.com/watch?v=8Ymvvh31ONs) |
-| hXXps://geekscripts[.]guru/daprofiler-create-profile-target-france/ [Here](https://geekscripts.guru/daprofiler-create-profile-target-france/) |
+| hXXps://geekscripts[.]guru/daprofiler-create-profile-target-france/ | [Here](https://geekscripts.guru/daprofiler-create-profile-target-france/) |
