@@ -1,11 +1,11 @@
 from json import decoder
 import threading, time, colorama, treelib, random, sys, os, argparse, json, requests, http.server, socketserver, webbrowser
 
-
 from colorama import Fore, init, Back, Style
 init(convert=True)
 from treelib  import Node, Tree
 
+from update_check import isUpToDate
 from modules  import skype_search
 from modules  import pagesblanches_search
 from modules  import copainsdavant_search
@@ -49,7 +49,7 @@ else:
     os.system('clear')
 
 print("DaProfiler - Inspired from Profiler CToS")
-print("Github : "+Fore.YELLOW+"https://github.com/TheRealDalunacrobate\n"+Fore.RESET)
+print("Github : "+Fore.YELLOW+"https://github.com/dalunacrobate\n\nSearch in progress ..."+Fore.RESET)
 print("\r")
 
 possible_usernames = []
