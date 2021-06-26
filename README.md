@@ -30,8 +30,6 @@ optional arguments:
                         Enable terminal logging (Optional)
   -ln LASTNAME, --lastname LASTNAME
                         Last name of victim
-  -e EMAIL, --email EMAIL
-                        Email (Optional)
   -O OUTPUT, --output OUTPUT
                         ( -O output.txt )
   -W WEBUI, --webui WEBUI
