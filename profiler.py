@@ -5,7 +5,6 @@ from colorama import Fore, init, Back, Style
 init(convert=True)
 from treelib  import Node, Tree
 
-from update_check import isUpToDate
 from modules  import skype_search
 from modules  import pagesblanches_search
 from modules  import copainsdavant_search
