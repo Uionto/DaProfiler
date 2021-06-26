@@ -31,7 +31,6 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-n", "--name", help="Victim name")
 parser.add_argument('-l','--logging',help="Enable terminal logging (Optional)")
 parser.add_argument('-ln','--lastname',help="Last name of victim")
-parser.add_argument('-e','--email',help="Email (Optional)")
 parser.add_argument('-O','--output',help="( -O output.txt )")
 parser.add_argument('-W','--webui',help='Open HTML report at the end')
 args = parser.parse_args()
@@ -39,7 +38,6 @@ args = parser.parse_args()
 name     = (args.lastname)
 pren     = (args.name)
 log      = (args.logging)
-email    = (args.email)
 output   = (args.output)
 web_arg  = (args.webui)
 
@@ -134,15 +132,9 @@ except TypeError:
     pren = ""
     name = ""  
 
-if email is not None:
-    email_value = True
-else:
-    email = ""
-    email_value = False
-
 if output is not None:
     with open(output,'a+') as f:
-        f.write('Results on target : {} {} {}\n\n'.format(name,pren,email))
+        f.write('Results on target : {} {}\n\n'.format(name,pren))
         f.close()
 
 def write(typee,objectt):
@@ -166,22 +158,6 @@ tree = Tree()
 tree.create_node(f"{pren} {name} {email}", 1)
 data_export['Name'] = pren
 data_export['LastName'] = name
-if email_value == True:
-    tree.create_node(email,15651145457841784,parent=1)
-    logging.terminal_loggin(log,text=" - Searching for passwords via Scylla.soon target : {}\n".format(email))
-    logging.terminal_loggin(log,text=" - Searching for passwords via LeakCheck.net API on target : {}\n".format(email))
-    leakcheck_results = leakcheck_net.leak_check_api(mail=email)
-    try:
-        if leakcheck_results is not None:
-            tree.create_node(Fore.RED+"Passwords"+Fore.RESET+" : "+email,1296187151897415478411585,parent=15651145457841784)
-            for i in leakcheck_results:
-                chars = "abcdefghijklmnopqrstuvwxyz1234567890"
-                number_sk = random.choice(chars)+random.choice(chars)+random.choice(chars)+random.choice(chars)+random.choice(chars)+random.choice(chars)
-                tree.create_node(i['leak_name'],number_sk,parent=1296187151897415478411585)
-                tree.create_node('Creditentials : {}'.format(i['password']),parent=number_sk)
-                tree.create_node('Date : {}'.format(i['leak_date']),parent=number_sk)
-    except TypeError:
-        pass
 if avis_deces_results is not None:
     tree.create_node("Death Records",41518181871541514778,parent=1)
     for i in avis_deces_results[:5]:
